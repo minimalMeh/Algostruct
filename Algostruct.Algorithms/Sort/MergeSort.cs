@@ -10,6 +10,7 @@ namespace Algostruct.Algorithms.Sort
             MergeSorting(elements);
             return elements;
         }
+
         static void MergeSorting(int[] elements)
         {
             if (elements.Length <= 1)

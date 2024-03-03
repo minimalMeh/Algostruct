@@ -22,6 +22,7 @@ namespace Algostruct.Questions.LeetCode
 
                 reachableIndex = Math.Max(reachableIndex, i + nums[i]);
 
+                // improvement
                 if (reachableIndex >= nums.Length - 1)
                     return true;
             }
