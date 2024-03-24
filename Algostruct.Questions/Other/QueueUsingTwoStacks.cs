@@ -1,15 +1,10 @@
-﻿using Algostruct.Core.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace Algostruct.Questions.Other
 {
-    public class QueueUsingTwoStacks : IDescribable, IPresentable
+    public class QueueUsingTwoStacks
     {
-        public string Name => "Implement a Queue using two Stacks";
-        public string Description => "Suppose we have two stacks and no other temporary variable. Is to possible to \"construct\"" +
-            " a queue data structure using only the two stacks?";
-
         public void Present()
         {
             Queue<int> queue = new(1, 2, 3, 4);

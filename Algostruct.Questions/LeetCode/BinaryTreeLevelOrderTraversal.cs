@@ -7,7 +7,8 @@ namespace Algostruct.Questions.LeetCode
     {
         public static IList<IList<int>> LevelOrder(TreeNode root)
         {
-            if (root == null) return Array.Empty<IList<int>>();
+            if (root == null)
+                return Array.Empty<IList<int>>();
 
             List<IList<int>> tree = new();
             AddInternal(0, tree, root);

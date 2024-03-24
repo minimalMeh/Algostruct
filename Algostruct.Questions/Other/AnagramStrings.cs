@@ -1,11 +1,10 @@
-﻿using Algostruct.Core.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace Algostruct.Questions.Other
 {
-    public class AnagramStrings : IDescribable, IPresentable
+    public class AnagramStrings
     {
         public string Name => "How to check if two Strings (words) are Anagrams?";
         public string Description => "An anagram is a word or phrase that's formed by rearranging the letters of another word or phrase. ";

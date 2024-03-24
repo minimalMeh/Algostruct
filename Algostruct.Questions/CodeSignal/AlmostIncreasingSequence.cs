@@ -15,7 +15,7 @@
                     if (count > 1)
                         return false;
 
-                    // Check if removing the current element would make the sequence strictly increasing
+                    // Check if removing the current element would make the sequence strictly increasing.
                     if (i > 1 && sequence[i] <= sequence[i - 2])
                     {
                         sequence[i] = sequence[i - 1]; // Remove current element
